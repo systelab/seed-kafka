@@ -1,0 +1,12 @@
+{
+  "name": "jdbc_sink_mysql_seed_jee_db2",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max": "1",
+    "topics": "seed-jee-mysql-db1-patient",
+    "connection.url": "jdbc:mysql://db2:3306/SEED",
+    "connection.user": "SEED",
+    "connection.password": "SEED",
+    "insert.mode": "upsert"
+  }
+}
