@@ -7,6 +7,9 @@
     "connection.url": "jdbc:mysql://db2:3306/SEED",
     "connection.user": "SEED",
     "connection.password": "SEED",
-    "insert.mode": "upsert"
+    "insert.mode": "upsert",
+    "table.name.format": "patient",
+    "pk.mode": "record_value",
+    "pk.fields": "id"
   }
 }

@@ -24,8 +24,13 @@ git clone https://github.com/systelab/seed-kafka.git
 cd seed-kafka
 ```
 
+## Examples
+
+- [Stream data between 2 MySql databases](https://github.com/systelab/seed-kafka/tree/master/examples/confluent/jdbc-connector)
+
 [kafka]: https://kafka.apache.org/
 [confluent]: https://www.confluent.io/
+[git]: https://git-scm.com/
 
 
 
